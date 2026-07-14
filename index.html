@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قصة قبيلة - رواية عربية</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏕️</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sand: { 50: '#FFF8F0', 100: '#FFEED5', 200: '#FDDBA8', 300: '#F5C678', 400: '#E8AD4A', 500: '#D4942E', 600: '#B07820' },
+            desert: { 50: '#FDF6EE', 100: '#F5E6D0', 200: '#E8CDA0', 300: '#D4A870', 400: '#C08A50', 500: '#A06E38', 600: '#7A5239', 700: '#5C3D2B', 800: '#3E2A1D', 900: '#221510' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Traditional Arabic', 'Amiri', 'Noto Naskh Arabic', serif; }
+    .chapter-line { line-height: 2; font-size: 1.15rem; }
+  </style>
+</head>
+<body class="bg-sand-50 text-desert-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b border-sand-100 sticky top-0 z-10">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="text-2xl font-bold text-desert-700">🏕️ قصة قبيلة</a>
+      <nav class="flex gap-6 text-sm">
+        <a href="/" class="text-desert-500 hover:text-desert-700">الرئيسية</a>
+        <a href="/novel.html" class="text-desert-500 hover:text-desert-700">الرواية</a>
+        <a href="/" class="text-desert-500 hover:text-desert-700">اتصل بنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-sand-100 to-sand-50 py-16 px-4 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-desert-800 mb-4">قصة قبيلة</h1>
+    <p class="text-lg text-desert-600 max-w-xl mx-auto mb-8">في صحراء قاسية، حيث القوة هي القانون الوحيد، تبدأ رحلة مالك لاستعادة مجد قبيلته. حرب، خيانة، وصراع من أجل البقاء.</p>
+    <div class="flex gap-3 justify-center">
+      <a href="/chapter.html?ch=1" class="bg-desert-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-desert-700 transition shadow-md">📖 ابدأ القراءة مجاناً</a>
+    </div>
+  </section>
+
+  <!-- Novel Info -->
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <div class="bg-white rounded-2xl shadow-sm border border-sand-100 p-6 md:p-8 flex flex-col md:flex-row gap-6">
+      <div class="w-48 h-72 bg-gradient-to-br from-desert-200 to-desert-400 rounded-xl flex items-center justify-center text-white text-6xl flex-shrink-0 shadow-md mx-auto md:mx-0">
+        🏕️
+      </div>
+      <div class="flex-1">
+        <h2 class="text-3xl font-bold text-desert-800 mb-2">قصة قبيلة</h2>
+        <p class="text-desert-500 mb-4">رواية حرب · قبائل · صراع</p>
+        <div class="flex gap-4 text-sm text-desert-600 mb-4">
+          <span>⭐ 4.9</span>
+          <span>📖 ١٢٠ فصل</span>
+          <span>🆕 مستمر</span>
+        </div>
+        <p class="text-desert-700 leading-relaxed mb-6">
+          بعد مقتل والده في معركة غادرة، ورث مالك قبيلة منهكة، لم يبق منها إلا العجائز والأطفال. 
+          القبائل المجاورة تتربص بهم، قطاع الطرق يسرقون آبارهم، والجميع ينتظر سقوطهم. 
+          لكن مالك لم يكن كغيره من الشبان. بعقل مدبر وقلب لا يعرف الاستسلام، بدأ رحلة استعادة مجد قبيلته، 
+          حبة رمل بعد حبة. من الفقر إلى القوة، من الذل إلى العزة، هذه هي قصة قبيلة بني هلال.
+        </p>
+        <div class="flex gap-2 flex-wrap">
+          <span class="bg-sand-100 text-desert-600 px-3 py-1 rounded-full text-sm">#قبائل</span>
+          <span class="bg-sand-100 text-desert-600 px-3 py-1 rounded-full text-sm">#حرب</span>
+          <span class="bg-sand-100 text-desert-600 px-3 py-1 rounded-full text-sm">#صحراء</span>
+          <span class="bg-sand-100 text-desert-600 px-3 py-1 rounded-full text-sm">#قصة_عشق</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapters List -->
+  <section class="max-w-4xl mx-auto px-4 pb-16">
+    <h3 class="text-2xl font-bold text-desert-800 mb-6">فصول الرواية</h3>
+    <div class="space-y-2" id="chapter-list">
+      <a href="/chapter.html?ch=1" class="block bg-white rounded-xl px-6 py-4 border border-sand-100 hover:border-desert-300 hover:shadow transition flex justify-between items-center">
+        <span class="text-desert-700">الفصل الأول: النار الأولى</span>
+        <span class="text-desert-400 text-sm">مجاناً</span>
+      </a>
+      <a href="/chapter.html?ch=2" class="block bg-white rounded-xl px-6 py-4 border border-sand-100 hover:border-desert-300 hover:shadow transition flex justify-between items-center">
+        <span class="text-desert-700">الفصل الثاني: سر الجبل الغربي</span>
+        <span class="text-desert-400 text-sm">مجاناً</span>
+      </a>
+      <a href="/chapter.html?ch=3" class="block bg-white rounded-xl px-6 py-4 border border-sand-100 hover:border-desert-300 hover:shadow transition flex justify-between items-center">
+        <span class="text-desert-700">الفصل الثالث: أول انتصار</span>
+        <span class="text-desert-400 text-sm">مجاناً</span>
+      </a>
+      <a href="/chapter.html?ch=4" class="block bg-white rounded-xl px-6 py-4 border border-sand-100 hover:border-desert-300 hover:shadow transition flex justify-between items-center">
+        <span class="text-desert-700">الفصل الرابع: نداء الصحراء</span>
+        <span class="text-desert-400 text-sm">مجاناً</span>
+      </a>
+      <a href="/chapter.html?ch=5" class="block bg-white rounded-xl px-6 py-4 border border-sand-100 hover:border-desert-300 hover:shadow transition flex justify-between items-center">
+        <span class="text-desert-700">الفصل الخامس: بناء القوة</span>
+        <span class="text-desert-400 text-sm">مجاناً</span>
+      </a>
+      <div class="block bg-white rounded-xl px-6 py-4 border border-gray-200 flex justify-between items-center opacity-60">
+        <span class="text-gray-500">الفصل السادس: معركة الوادي</span>
+        <span class="text-desert-500 text-sm font-semibold">💎 ل subscribers</span>
+      </div>
+      <div class="block bg-white rounded-xl px-6 py-4 border border-gray-200 flex justify-between items-center opacity-60">
+        <span class="text-gray-500">الفصل السابع: حليف جديد</span>
+        <span class="text-desert-500 text-sm font-semibold">💎 ل subscribers</span>
+      </div>
+    </div>
+
+    <!-- Subscribe CTA -->
+    <div class="mt-8 bg-gradient-to-r from-desert-600 to-desert-800 rounded-2xl p-8 text-center text-white">
+      <h4 class="text-2xl font-bold mb-2">💎 ادعم القصة</h4>
+      <p class="mb-6 opacity-90">احصل على الفصول الحصرية وادعم استمرار الرواية</p>
+      <a href="/subscribe.html" class="inline-block bg-white text-desert-700 px-8 py-3 rounded-full font-semibold hover:bg-sand-100 transition shadow-md">اشترك الآن - $4.99/شهر</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-sand-100 py-8 text-center text-desert-400 text-sm">
+    <p>© 2026 قصة قبيلة · جميع الحقوق محفوظة</p>
+    <p class="mt-2">رواية عربية أصلية</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اشتراك - قصة قبيلة</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏕️</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sand: { 50: '#FFF8F0', 100: '#FFEED5', 200: '#FDDBA8', 300: '#F5C678', 400: '#E8AD4A', 500: '#D4942E', 600: '#B07820' },
+            desert: { 50: '#FDF6EE', 100: '#F5E6D0', 200: '#E8CDA0', 300: '#D4A870', 400: '#C08A50', 500: '#A06E38', 600: '#7A5239', 700: '#5C3D2B', 800: '#3E2A1D', 900: '#221510' },
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-sand-50 text-desert-800">
+
+  <header class="bg-white shadow-sm border-b border-sand-100 sticky top-0 z-10">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="text-xl font-bold text-desert-700">🏕️ قصة قبيلة</a>
+      <a href="/" class="text-sm text-desert-500 hover:text-desert-700">← العودة</a>
+    </div>
+  </header>
+
+  <main class="max-w-lg mx-auto px-4 py-12">
+
+    <h1 class="text-3xl font-bold text-center mb-8">💎 ادعم الرواية</h1>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-sand-100 p-8 space-y-4">
+
+      <!-- Plan 1 -->
+      <div class="border-2 border-desert-300 rounded-xl p-6 bg-sand-50">
+        <div class="flex justify-between items-start mb-3">
+          <div>
+            <h3 class="text-xl font-bold text-desert-800">اشتراك شهري</h3>
+            <p class="text-desert-500 text-sm">إلغاء في أي وقت</p>
+          </div>
+          <span class="text-2xl font-bold text-desert-600">$4.99<small class="text-sm text-desert-400">/شهر</small></span>
+        </div>
+        <ul class="text-sm text-desert-600 space-y-1 mb-4">
+          <li>✅ فصول حصرية قبل النشر</li>
+          <li>✅ قراءة بدون إعلانات</li>
+          <li>✅ دعم الكاتب</li>
+        </ul>
+        <!-- PayPal Button -->
+        <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=YOUR_PLAN_ID" 
+           class="block w-full bg-[#0070BA] text-white text-center py-3 rounded-full font-semibold hover:bg-[#003D7A] transition shadow-md">
+          💳 اشترك عبر PayPal
+        </a>
+        <p class="text-xs text-desert-400 text-center mt-2">paypal.me/yourlink · الدفع آمن</p>
+      </div>
+
+      <!-- Plan 2: One-time -->
+      <div class="border border-sand-200 rounded-xl p-6">
+        <div class="flex justify-between items-start mb-3">
+          <div>
+            <h3 class="text-xl font-bold text-desert-800">دعم لمرة واحدة</h3>
+            <p class="text-desert-500 text-sm">تبرع لدعم الكاتب</p>
+          </div>
+          <span class="text-lg font-bold text-desert-600">اختر المبلغ</span>
+        </div>
+        <div class="flex gap-2 mb-4">
+          <button class="flex-1 border-2 border-sand-200 rounded-lg py-2 text-center hover:border-desert-300 font-semibold">$5</button>
+          <button class="flex-1 border-2 border-desert-300 rounded-lg py-2 text-center bg-desert-50 font-semibold">$10</button>
+          <button class="flex-1 border-2 border-sand-200 rounded-lg py-2 text-center hover:border-desert-300 font-semibold">$20</button>
+        </div>
+        <a href="https://paypal.me/YOUR_PAYPAL_USERNAME" 
+           class="block w-full bg-[#0070BA] text-white text-center py-3 rounded-full font-semibold hover:bg-[#003D7A] transition shadow-md">
+          💳 تبرع عبر PayPal
+        </a>
+      </div>
+
+      <p class="text-xs text-desert-400 text-center">بعد الاشتراك، سيتم إرسال الفصول الحصرية لك فور نشرها</p>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-sand-100 py-8 text-center text-desert-400 text-sm">
+    <p>© 2026 قصة قبيلة</p>
+  </footer>
+
+</body>
+</html>

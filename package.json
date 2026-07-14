@@ -1,0 +1,9 @@
+{
+  "name": "qissat-qabila",
+  "version": "1.0.0",
+  "description": "قصة قبيلة - Arabic Web Novel",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site, no build needed'"
+  }
+}
