@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qissat-qabila.vercel.app/sitemap.xml

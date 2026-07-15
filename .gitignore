@@ -1,3 +1,8 @@
 node_modules/
-hermes-toolsnpm-global/
+.vite/
+dist/
+.env
 .DS_Store
+*.log
+npm-debug.log*
+hermes-toolsnpm-global/

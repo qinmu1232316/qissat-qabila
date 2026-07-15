@@ -7,22 +7,13 @@
   <meta name="description" content="ادعم رواية قصة قبيلة. تبرعك يساعد الكاتب على الاستمرار في كتابة فصول جديدة.">
   <meta property="og:title" content="تبرع - قصة قبيلة">
   <meta property="og:description" content="ادعم رواية قصة قبيلة. تبرع بأي مبلغ.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏕️</text></svg>">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            sand: { 50: '#FFF8F0', 100: '#FFEED5', 200: '#FDDBA8', 300: '#F5C678', 400: '#E8AD4A', 500: '#D4942E', 600: '#B07820' },
-            desert: { 50: '#FDF6EE', 100: '#F5E6D0', 200: '#E8CDA0', 300: '#D4A870', 400: '#C08A50', 500: '#A06E38', 600: '#7A5239', 700: '#5C3D2B', 800: '#3E2A1D', 900: '#221510' },
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="/styles.css" rel="stylesheet">
 </head>
-<body class="bg-sand-50 text-desert-800">
+<body class="bg-sand-50 text-desert-800 font-arabic">
 
   <header class="bg-white shadow-sm border-b border-sand-100 sticky top-0 z-10">
     <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -38,11 +29,19 @@
 
     <div class="bg-white rounded-2xl shadow-sm border border-sand-100 p-8 text-center">
       <p class="text-desert-700 mb-6 text-lg">اختر المبلغ الذي تريد التبرع به</p>
-      <a href="https://www.paypal.com/ncp/payment/KZTZ8EJ732858" 
+      <a href="https://www.paypal.com/ncp/payment/KZTZ8EJ732858"
          class="inline-block bg-[#0070BA] text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-[#003D7A] transition shadow-md">
         💖 تبرع عبر PayPal
       </a>
       <p class="text-xs text-desert-400 mt-4">يمكنك تحديد المبلغ بنفسك بعد الضغط على الرابط</p>
+    </div>
+
+    <!-- Social Share -->
+    <div class="mt-8 flex justify-center gap-3">
+      <a href="https://wa.me/?text=ادعم رواية قصة قبيلة https://qissat-qabila.vercel.app/donate.html" target="_blank"
+         class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl hover:bg-green-700 transition shadow-md">📱</a>
+      <a href="https://twitter.com/intent/tweet?text=ادعم رواية قصة قبيلة&url=https://qissat-qabila.vercel.app/donate.html" target="_blank"
+         class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center text-xl hover:bg-gray-800 transition shadow-md">𝕏</a>
     </div>
 
   </main>
@@ -52,6 +51,5 @@
   </footer>
 
   <script data-goatcounter="https://qissat-qabila.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-</body>
 </body>
 </html>
